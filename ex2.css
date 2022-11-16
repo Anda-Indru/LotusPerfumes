@@ -1,0 +1,103 @@
+.div1{
+    height: 120px;
+    width: 100%;
+    background: rgb(253, 253, 253);
+    align-items:baseline;
+}
+
+.header{
+    height: 50px;
+    width: 100%;
+    background: rgb(9, 10, 10);
+    align-items:baseline;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    margin: 0 auto;
+    height:fit-content;
+}
+
+ul{
+    font-family: Arial, Verdana;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+ul li{
+    float:left;
+    position: relative;
+    color:rgb(193, 0, 0);
+}
+
+li ul{
+    display: none;
+}
+
+ul li a{
+    display: block;
+    width: 35px;
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    text-align:left;
+    border-top: 1px solid #fff;
+    padding: 7px 90px 7px 90px;
+    background:rgb(231, 231, 231);
+    margin-left: 1px;
+    white-space: nowrap;
+}
+
+ul li a:hover
+{
+background: #00dd0bb4;
+color:rgb(127, 0, 0)
+}
+
+li:hover ul
+{
+ display: block;
+ position: absolute;
+} 
+
+li li:hover a {
+    float: none;
+    color:rgb(106, 12, 0);
+}
+
+.descopera{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: rgb(45, 149, 31);
+}
+
+.pret{
+    text-align: center;
+    color:rgb(193, 0, 0)
+}
+
+.titlu{
+    
+    color:rgba(0, 0, 0, 0.555);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.form{
+    font-style: italic;
+    font-weight: bold;
+    float: left;
+    margin-left:0px;
+}
+td {
+
+    border-bottom:0px solid white;
+    border-top:0 solid white;
+    }
+
+
+  
+
+   
