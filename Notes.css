@@ -1,0 +1,47 @@
+table tr {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    padding: 20px;
+    margin-bottom: .625em;
+    background-color: white;
+  }
+
+  table td { 
+    
+    text-align: left;
+    align-items: center;
+    align-content: center;
+  }
+
+table{
+    align-self: center;
+}
+
+.mobile-table{
+  display: none;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  align-items: left;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+
+  .mobile-table {
+    display: block;
+  }
+
+  .desktop-table {
+    display: none;
+  }
+
+}
+
+
+  
+  

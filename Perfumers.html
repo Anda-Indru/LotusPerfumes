@@ -1,0 +1,274 @@
+<html>
+
+<head>
+  <link href="MainPage.css" rel="stylesheet" type="text/css">
+  <link href="Perfumers.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="desktop-header">
+    <div class="row" style="background-color: black">
+
+      <div class="col-5">
+        <div class="gradient-left">
+        </div>
+      </div>
+
+      <div class="col-2">
+        <div class="logo">
+          <a href="index.html"><img src="LOGOedit.jpg" width="180" height="100"
+              style="float:left; margin-left: 30px; margin-top: 0;"></a>
+        </div>
+      </div>
+
+      <div class="col-5">
+        <div class="gradient-right">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="mobile-header">
+    <div class="row" style="background-color: black">
+
+      <div class="col-2" style="margin-left: 130;">
+        <div class="logo">
+          <a href="index.html"><img src="LOGOedit.jpg" width="180" height="100"
+              style="float:left; margin-left: 30px; margin-top: 0;"></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <nav class="navbar sticky-top navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="l alphabet floral letter with_5391085.png" alt="Bootstrap"
+              width="50" height="40"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 20; margin-left: 20;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" style="font-size: 20; margin-left: 20;" aria-current="page"
+                  href="Perfumers.html">Perfumers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" style="font-size: 20; margin-left: 20;" aria-current="page"
+                  href="Notes.html">Notes</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" style="font-size: 20; margin-left: 20;" href="#" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" style="font-size: 15;" href="ShopWomen.html">Women</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" style="font-size: 15;" href="ShopMan.html">Man</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" style="font-size: 20; margin-left: 20;" aria-current="page"
+                  href="Contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search on site.." aria-label="Search"
+              style="width: 450; margin-left: 20; margin-right: 40;">
+            </form>
+            <button class="button-85" style="margin-left: 20;" role="button" onclick="myFunctionn()">Dark</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+  <!--BACK TO TOP-->
+  <a id="back2Top" title="Back to top" href="#">&#10148;</a>
+  
+  <div class="container">
+    
+      <H1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; background-color: rgb(243, 239, 221); 
+          text-align: center; font-size: 30;">PERFUMERS </H1>
+          
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+  
+      <ul id="myUL">
+        <li><a href="#">Armani</a></li>
+        <li><a href="#">Dior</a></li>
+  
+        <li><a href="#">Gucci</a></li>
+        <li><a href="#">Chanel</a></li>
+      </ul>
+    <!--
+      <video width="400" loop="true" autoplay="autoplay" controls muted>
+        <source src="yt5s.io-VERSACE EROS _ Perfume Commercial-(480p).mp4" type="video/mp4">
+        <source src="mov_bbb.ogg" type="video/ogg">
+      </video>
+    -->
+    
+
+    <div class="row" id="slider-text">
+      <div class="col-md-7">
+        <h2>Most popular brands</h2>
+      </div>
+    </div>
+    
+    <table>
+      <caption> </caption>
+      <tbody>
+        <tr>
+          <td><a href="index.html"><img src="lancome (1).png" style="width: 220; height: 210"></a></td>
+          <td><a href="index.html"><img src="gucci.png" style="width: 160; height: 150"></a></td>
+          <td><a href="index.html"><img src="lv.png" style="width: 160; height: 150"></td>
+        </tr>
+        <tr>
+          <td scope="row" data-label=""><a href="index.html"><img src="chanel.png" style="width: 170; height: 130"></td>
+            <td data-label=""><a href="index.html"><img src="boss.png" style="width: 190; height: 150"></td>
+          <td data-label=""><a href="index.html"><img src="versace.png" style="width: 150; height: 170"></td>
+        </tr>
+        <tr>
+          <td scope="row" data-label=""><a href="index.html"><img src="valentino.png" style="width: 220; height: 130">
+          </td>
+          <td data-label=""><a href="index.html"><img src="pngwing.com.png" style="width: 200; height: 150"></td>
+            <td data-label=""><a href="index.html"><img src="hermes.png" style="width: 370; height: 190"></td>
+            </tr>
+        <tr>
+          <td scope="row" data-label=""><a href="index.html"><img src="balmain.png" style="width: 280; height: 180"></td>
+            <td data-label=""><a href="index.html"></a><img src="nina.png" style="width: 200; height: 170"></td>
+            <td data-label=""><a href="index.html"></a><img src="bvlgari.png" style="width: 220; height: 190"></td>
+        </tr>
+        <tr>
+          <td scope="row" data-label=""><a href="index.html"><img src="rc.png" style="width: 280; height: 180"></td>
+            <td data-label=""><a href="index.html"></a><img src="guerlan.png" style="width: 290; height: 170"></td>
+          <td data-label=""><a href="index.html"></a><img src="guess.png" style="width: 250; height: 170"></td>
+        </tr>
+        <tr>
+          <td scope="row" data-label=""><a href="index.html"><img src="ck.png" style="width: 220; height: 230"></td>
+            <td data-label=""><a href="index.html"></a><img src="davidoff.png" style="width: 270; height: 170"></td>
+          <td data-label=""><a href="index.html"></a><img src="givency.png" style="width: 220; height: 170"></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+  
+  <div class="help">
+  
+    <div class="question">?</div>
+  
+    <div class="popup">
+      <h3>Need help?</h3>
+      <div class="tell-me">
+        <p><a href="Contact.html" target="_blank">Click here for contacting us!</a></p>
+      </div>
+    </div>
+  
+  </div>
+  
+  <H1>&nbsp</H1>
+  
+      <footer class="footer">
+        <div class="icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <p class="company-name">
+            Lotus perfumes; 2022, ALL Rights Reserved
+          </p>
+        </div>
+      </footer>
+
+  <!--JAVASCRIPT-->
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+
+    <script>
+      // ===== Scroll to Top ==== 
+      $(window).scroll(function () {
+        var height = $(window).scrollTop();
+        if (height > 100) {
+          $('#back2Top').fadeIn();
+          
+        } else {
+          $('#back2Top').fadeOut();
+        }
+      });
+      $(document).ready(function () {
+        $("#back2Top").click(function (event) {
+          event.preventDefault();
+          $("html, body").animate({ scrollTop: 0 }, "slow");
+          return false;
+        });
+
+      });
+    </script>
+
+    <script>
+      function myFunctionn() {
+         var element = document.body;
+         element.classList.toggle("dark-mode");
+      }
+      </script>
+
+      <script>
+        function myFunction() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+        </script>
+         <script>
+          // ===== SEARCH ==== 
+          $(document).ready(function () {
+            $("#myInput").click(function (event) {
+              event.preventDefault();
+              document.getElementById('myUL').style.display = "block";
+            });
+    
+          });
+        </script>
+
+</body>
+
+</html>
